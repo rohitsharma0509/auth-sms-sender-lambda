@@ -1,0 +1,7 @@
+---
+# Source: environment/templates/devops-config/deployment/deployment-vars-{{env}}.yml
+# This file was generated at  using generator Version: 
+
+DEPLOYMENT:
+    ENV: perftest
+

@@ -1,0 +1,11 @@
+---
+include:
+  # Include the archetype from the central repo
+  - project: 'scbtechx/rider/rider-devops/devops-pipeline/pipeline-orchestrator'
+    ref: '1.0'
+    # ref: master
+    file: '/archetypes/node/auth-sms-sender-lambda/1.0/main.gitlab-ci.yml'
+    
+  # Include the application specific configuration from local repo
+  - local: '/devops-config/application-devops-config.yml'
+
